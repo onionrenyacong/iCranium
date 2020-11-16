@@ -1,0 +1,3 @@
+
+g++ cameraMain.cpp setDevice.c -o cameraMain.out  `pkg-config --cflags --libs opencv` -lcurl -lm -lpthread
+gcc main.c http.c setDevice.c  cJSON.c -lcurl -lpthread -lm
